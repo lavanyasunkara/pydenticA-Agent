@@ -48,7 +48,7 @@ def get_weather_forecast(ctx: RunContext, city: str) -> WeatherForecast:
     url = "https://api.openweathermap.org/data/2.5/weather"
     
     # Replace this with your own API key for production use
-    api_key = "035b143e93330ffbb6b1d74f937d0a90"
+    api_key = ""
     
     # Query parameters
     params = {
