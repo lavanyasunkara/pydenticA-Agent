@@ -19,7 +19,7 @@ from pydantic import BaseModel
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.settings import ModelSettings
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 # 1. Define the output schema of the tool using Pydantic
 class WeatherForecast(BaseModel):
